@@ -1,0 +1,40 @@
+Sample output:
+
+===== Shopping Bill Generator =====
+
+Enter product name (or 'done' to finish): perfume
+Enter quantity: 2
+Enter price per item (Rs.): 1500
+Product added successfully!
+
+Enter product name (or 'done' to finish): lotion
+Enter quantity: 1
+Enter price per item (Rs.): 750
+Product added successfully!
+
+Enter product name (or 'done' to finish): soap
+Enter quantity: 4
+Enter price per item (Rs.): 95
+Product added successfully!
+
+Enter product name (or 'done' to finish): done
+
+Enter discount percentage (0-100): 20
+Enter tax percentage (0-100): 5
+
+=======================================================
+                 SHOPPING BILL
+=======================================================
+Product             Qty       Price       Total
+-------------------------------------------------------
+perfume               2     1500.00     3000.00
+lotion                1      750.00      750.00
+soap                  4       95.00      380.00
+-------------------------------------------------------
+                              Subtotal: Rs.    4130.00
+                              Discount: Rs.     826.00
+                                   Tax: Rs.     165.20
+=======================================================
+                          Final Amount: Rs.    3469.20
+=======================================================
+          Thank you for shopping!
